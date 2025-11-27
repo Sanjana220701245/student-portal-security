@@ -1,0 +1,37 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+terraform.rc
+*_override.tf
+*_override.tf.json
+
+# Provider binaries (too large for GitHub)
+terraform-provider-*.*
+
+# Logs
+logs/
+*.log
+*.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Docker
+*.pid
+
+# Temp folders
+temp/
+tmp/
