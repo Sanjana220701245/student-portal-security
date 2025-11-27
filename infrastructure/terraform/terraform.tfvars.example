@@ -1,0 +1,12 @@
+# Copy this file to terraform.tfvars and update with your values
+# DO NOT commit terraform.tfvars to Git!
+
+resource_group_name  = "SentinelDemo-RG"
+location             = "East Asia"
+environment          = "Demo"
+log_analytics_name   = "StudentPortalLogs"
+acr_name             = "studentportalacr"  # Change this to make it unique
+aks_cluster_name     = "studentportal-aks"
+aks_node_count       = 2
+aks_vm_size          = "Standard_B2s"
+storage_account_name = "tfstatestudentportal"  # Change this to make it unique

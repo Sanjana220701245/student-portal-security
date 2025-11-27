@@ -1,0 +1,12 @@
+Flask==2.3.3
+Flask-CORS==4.0.0
+requests==2.31.0
+azure-monitor-query==1.1.1
+azure-identity==1.14.0
+
+azure-monitor-ingestion==1.0.3
+user-agents==2.2.0
+
+gunicorn==21.2.0
+python-dotenv==1.0.0
+mysql-connector-python
